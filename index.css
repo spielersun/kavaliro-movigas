@@ -1,0 +1,102 @@
+body{
+    width: 1000px;
+    margin:10px auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+    width: 100%;
+    font-size: 1.9rem;
+    margin: 10px 0px;
+    text-align: center;
+    color:#000;
+}
+h2{
+    width: 100%;
+    font-size: 1.3rem;
+    margin: 10px 0px;
+    text-align: center;
+    color:#000;
+}
+
+#board{
+    width:800px;
+    height:800px;
+    margin:0px auto;
+}
+
+.allRows{
+    width:800px;
+    height:800px;
+    float:left;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.row{
+    width:800px;
+    height:100px;
+    float:left;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.row li{
+    width: 100px;
+    height:100px;
+    float:left;
+}
+.row li.black{
+    background-color: #000;
+    color:#fff;
+}
+.row li.black button{
+    color:#fff;
+}
+
+.row li.white{
+    background-color: #fff;
+}
+.row li.white button{
+    color:#000;
+}
+
+.row li button{
+    width: 100px;
+    height:100px;
+    text-align: left;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    border:none;
+    font-size:0.9rem;
+    transition: transform 0.3s ease-out;
+}
+
+.row li button.startSquare{
+    background-image: url("images/start_square.png");
+}
+
+.row li button.stationSquare1{
+    background-image: url("images/station_square_1.png");
+}
+.row li button.stationSquare2{
+    background-image: url("images/station_square_2.png");
+}
+.row li button.stationSquare3{
+    background-image: url("images/station_square_3.png");
+}
+.row li button.stationSquare4{
+    background-image: url("images/station_square_4.png");
+}
+.row li button.stationSquare5{
+    background-image: url("images/station_square_5.png");
+}
+.row li button.stationSquare6{
+    background-image: url("images/station_square_6.png");
+}
+
+.row li button.endSquare{
+    background-image: url("images/end_square.png");
+}

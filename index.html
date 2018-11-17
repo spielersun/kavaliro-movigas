@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" media="all" href="index.css" />
+    <title>kavaliro movigas</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="main">
+        <h1>KAVALIRO MOVIGAS</h1>
+        <h2 id="messageLine">Please choose two squares...</h2>
+        <div id="board">
+            <ul class="allRows">
+                <ul class="row">
+                    <li class="white"><button id="A8" onclick="showRoute(this.id)">A8</button></li>
+                    <li class="black"><button id="B8" onclick="showRoute(this.id)">B8</button></li>
+                    <li class="white"><button id="C8" onclick="showRoute(this.id)">C8</button></li>
+                    <li class="black"><button id="D8" onclick="showRoute(this.id)">D8</button></li>
+                    <li class="white"><button id="E8" onclick="showRoute(this.id)">E8</button></li>
+                    <li class="black"><button id="F8" onclick="showRoute(this.id)">F8</button></li>
+                    <li class="white"><button id="G8" onclick="showRoute(this.id)">G8</button></li>
+                    <li class="black"><button id="H8" onclick="showRoute(this.id)">H8</button></li>
+                </ul>
+                <ul class="row">
+                    <li class="black"><button id="A7" onclick="showRoute(this.id)">A7</button></li>
+                    <li class="white"><button id="B7" onclick="showRoute(this.id)">B7</button></li>
+                    <li class="black"><button id="C7" onclick="showRoute(this.id)">C7</button></li>
+                    <li class="white"><button id="D7" onclick="showRoute(this.id)">D7</button></li>
+                    <li class="black"><button id="E7" onclick="showRoute(this.id)">E7</button></li>
+                    <li class="white"><button id="F7" onclick="showRoute(this.id)">F7</button></li>
+                    <li class="black"><button id="G7" onclick="showRoute(this.id)">G7</button></li>
+                    <li class="white"><button id="H7" onclick="showRoute(this.id)">H7</button></li>
+                </ul>
+                <ul class="row">
+                    <li class="white"><button id="A6" onclick="showRoute(this.id)">A6</button></li>
+                    <li class="black"><button id="B6" onclick="showRoute(this.id)">B6</button></li>
+                    <li class="white"><button id="C6" onclick="showRoute(this.id)">C6</button></li>
+                    <li class="black"><button id="D6" onclick="showRoute(this.id)">D6</button></li>
+                    <li class="white"><button id="E6" onclick="showRoute(this.id)">E6</button></li>
+                    <li class="black"><button id="F6" onclick="showRoute(this.id)">F6</button></li>
+                    <li class="white"><button id="G6" onclick="showRoute(this.id)">G6</button></li>
+                    <li class="black"><button id="H6" onclick="showRoute(this.id)">H6</button></li>
+                </ul>
+                <ul class="row">
+                    <li class="black"><button id="A5" onclick="showRoute(this.id)">A5</button></li>
+                    <li class="white"><button id="B5" onclick="showRoute(this.id)">B5</button></li>
+                    <li class="black"><button id="C5" onclick="showRoute(this.id)">C5</button></li>
+                    <li class="white"><button id="D5" onclick="showRoute(this.id)">D5</button></li>
+                    <li class="black"><button id="E5" onclick="showRoute(this.id)">E5</button></li>
+                    <li class="white"><button id="F5" onclick="showRoute(this.id)">F5</button></li>
+                    <li class="black"><button id="G5" onclick="showRoute(this.id)">G5</button></li>
+                    <li class="white"><button id="H5" onclick="showRoute(this.id)">H5</button></li>
+                </ul>
+                <ul class="row">
+                    <li class="white"><button id="A4" onclick="showRoute(this.id)">A4</button></li>
+                    <li class="black"><button id="B4" onclick="showRoute(this.id)">B4</button></li>
+                    <li class="white"><button id="C4" onclick="showRoute(this.id)">C4</button></li>
+                    <li class="black"><button id="D4" onclick="showRoute(this.id)">D4</button></li>
+                    <li class="white"><button id="E4" onclick="showRoute(this.id)">E4</button></li>
+                    <li class="black"><button id="F4" onclick="showRoute(this.id)">F4</button></li>
+                    <li class="white"><button id="G4" onclick="showRoute(this.id)">G4</button></li>
+                    <li class="black"><button id="H4" onclick="showRoute(this.id)">H4</button></li>
+                </ul>
+                <ul class="row">
+                    <li class="black"><button id="A3" onclick="showRoute(this.id)">A3</button></li>
+                    <li class="white"><button id="B3" onclick="showRoute(this.id)">B3</button></li>
+                    <li class="black"><button id="C3" onclick="showRoute(this.id)">C3</button></li>
+                    <li class="white"><button id="D3" onclick="showRoute(this.id)">D3</button></li>
+                    <li class="black"><button id="E3" onclick="showRoute(this.id)">E3</button></li>
+                    <li class="white"><button id="F3" onclick="showRoute(this.id)">F3</button></li>
+                    <li class="black"><button id="G3" onclick="showRoute(this.id)">G3</button></li>
+                    <li class="white"><button id="H3" onclick="showRoute(this.id)">H3</button></li>
+                </ul>
+                <ul class="row">
+                    <li class="white"><button id="A2" onclick="showRoute(this.id)">A2</button></li>
+                    <li class="black"><button id="B2" onclick="showRoute(this.id)">B2</button></li>
+                    <li class="white"><button id="C2" onclick="showRoute(this.id)">C2</button></li>
+                    <li class="black"><button id="D2" onclick="showRoute(this.id)">D2</button></li>
+                    <li class="white"><button id="E2" onclick="showRoute(this.id)">E2</button></li>
+                    <li class="black"><button id="F2" onclick="showRoute(this.id)">F2</button></li>
+                    <li class="white"><button id="G2" onclick="showRoute(this.id)">G2</button></li>
+                    <li class="black"><button id="H2" onclick="showRoute(this.id)">H2</button></li>
+                </ul>
+                <ul class="row">
+                    <li class="black"><button id="A1" onclick="showRoute(this.id)">A1</button></li>
+                    <li class="white"><button id="B1" onclick="showRoute(this.id)">B1</button></li>
+                    <li class="black"><button id="C1" onclick="showRoute(this.id)">C1</button></li>
+                    <li class="white"><button id="D1" onclick="showRoute(this.id)">D1</button></li>
+                    <li class="black"><button id="E1" onclick="showRoute(this.id)">E1</button></li>
+                    <li class="white"><button id="F1" onclick="showRoute(this.id)">F1</button></li>
+                    <li class="black"><button id="G1" onclick="showRoute(this.id)">G1</button></li>
+                    <li class="white"><button id="H1" onclick="showRoute(this.id)">H1</button></li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="base.js"></script>
+  </body>
+</html>
